@@ -7,6 +7,9 @@ theme:
   features:
   - header.autohide
   - navigation.footer
+  - content.code.copy
+  - content.code.annotate
+
   icon:
     repo: fontawesome/brands/github
   palette: 
@@ -37,6 +40,9 @@ plugins:
       blog_toc: true
 
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
   - toc:
       permalink: true
 

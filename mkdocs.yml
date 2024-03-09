@@ -7,6 +7,8 @@ theme:
   features:
   - header.autohide
   - navigation.footer
+  icon:
+    repo: fontawesome/brands/github
   palette: 
 
   # Palette toggle for light mode
@@ -37,3 +39,6 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: true
+
+repo_url: https://github.com/how-dare-you/hc_blog
+repo_name: how-dare-you/hc_blog

@@ -4,9 +4,10 @@ theme:
   language: zh
   logo: logo.jpg
   favicon: logo.jpg
+  custom_dir: overrides
   features:
   - header.autohide
-  - navigation.footer
+  # - navigation.footer
   - content.code.copy
   - content.code.annotate
 
